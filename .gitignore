@@ -23,3 +23,4 @@ Videos/
 .config/dconf
 .config/i3/*.swp
 .cargo/
+.config/alacritty/colorscheme/
