@@ -21,3 +21,4 @@ Videos/
 .bash_logout
 .config/pulse/
 .config/dconf
+.config/i3/*.swp
