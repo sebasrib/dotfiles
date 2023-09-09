@@ -22,3 +22,4 @@ Videos/
 .config/pulse/
 .config/dconf
 .config/i3/*.swp
+.cargo/
