@@ -38,6 +38,9 @@ exec --no-startup-id dex --autostart --environment i3
 # Connect to bluetooth
 exec --no-startup-id /usr/bin/bluetoothctl connect 94:3A:91:A5:20:19
 
+# Startup and restore nitrogen wallpaper
+exec --no-startup-id /usr/bin/nitrogen --restore
+
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
