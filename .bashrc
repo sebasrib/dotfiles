@@ -112,7 +112,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH=$PATH:$HOME/.cargo/bin:$HOME/Scripts/
+export PATH=$PATH:$HOME/.cargo/bin:$HOME/Scripts/:$HOME/.local/bin/
 
 RESET="\[$(tput sgr0)\]"
 RED="\[$(tput setaf 1)\]"
