@@ -25,3 +25,5 @@ Videos/
 .cargo/
 .config/alacritty/colorscheme/
 .ssh/
+.config/gtk-2.0/
+.config/nitrogen/
