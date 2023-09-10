@@ -112,11 +112,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH=$PATH:$HOME/.cargo/bin
+export PATH=$PATH:$HOME/.cargo/bin:$HOME/Scripts/
 
 RESET="\[$(tput sgr0)\]"
 RED="\[$(tput setaf 1)\]"
-
 
 export PS1="$(tput bold)\u@${RED}\h${RESET}:\w\\$ "
 # export PS1="\[\e[31m\][\[\e[m\]\[\e[38;5;172m\]\u\[\e[m\]@\[\e[38;5;153m\]\h\[\e[m\] \[\e[38;5;214m\]\W\[\e[m\]\[\e[31m\]]\[\e[m\]   ¯\_(ツ)_/¯   $ "

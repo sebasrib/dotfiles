@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # From https://github.com/eendroroy/bin_scripts/blob/master/public/print_colors
 # with Do What The F*ck You Want To Public License
@@ -13,7 +13,7 @@ echo -e "|036| \033[36mCyan \033[m     |046| \033[46mCyan \033[m     |096| \033[
 
 # Added print (with little own mods)
 # from https://github.com/alacritty/alacritty/pull/3423#issuecomment-604703230
-echo -e "\e[1m\e[99mdef\e[0m\e[90mfoo\e[91mbar\e[92mbaz\e[93mbat\e[94mbax\e[95mbal\e[96mbag\e[97mban"
-echo -e "\e[39mdef\e[30mfoo\e[31mbar\e[32mbaz\e[33mbat\e[34mbax\e[35mbal\e[36mbag\e[37mban"
-echo -e "\e[2m\e[39mdef\e[30mfoo\e[31mbar\e[32mbaz\e[33mbat\e[34mbax\e[35mbal\e[36mbag\e[37mban"
-echo -e "\e[0m"
+# echo -e "\e[1m\e[99mdef\e[0m\e[90mfoo\e[91mbar\e[92mbaz\e[93mbat\e[94mbax\e[95mbal\e[96mbag\e[97mban"
+# echo -e "\e[39mdef\e[30mfoo\e[31mbar\e[32mbaz\e[33mbat\e[34mbax\e[35mbal\e[36mbag\e[37mban"
+# echo -e "\e[2m\e[39mdef\e[30mfoo\e[31mbar\e[32mbaz\e[33mbat\e[34mbax\e[35mbal\e[36mbag\e[37mban"
+# echo -e "\e[0m"
