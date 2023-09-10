@@ -25,7 +25,7 @@ hide_edge_borders smart
 gaps inner 10px
 
 # Outer gaps (margin)
-gaps outer 20px
+#gaps outer 20px
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -34,6 +34,9 @@ gaps outer 20px
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
+
+# Connect to bluetooth
+exec --no-startup-id /usr/bin/bluetoothctl connect 94:3A:91:A5:20:19
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
