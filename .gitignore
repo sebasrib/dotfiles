@@ -12,7 +12,6 @@ Videos/
 ..gitignore.swp
 .Xauthority
 .bash_history
-.bashrc
 .gitconfig
 .lesshst
 .profile
