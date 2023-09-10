@@ -24,3 +24,4 @@ Videos/
 .config/i3/*.swp
 .cargo/
 .config/alacritty/colorscheme/
+.ssh/
