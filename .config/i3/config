@@ -40,7 +40,15 @@ exec --no-startup-id /usr/bin/bluetoothctl connect 94:3A:91:A5:20:19
 
 # Startup and restore nitrogen wallpaper
 # exec --no-startup-id /usr/bin/nitrogen --restore
+
+# Persist wal in reboot
 exec --no-startup-id ~/.local/bin/wal -R
+
+# Setup wal in telegram
+exec_always --no-startup-id /usr/bin/wal-telegram --wal
+
+# Setup wal in discord
+exec_always --no-startup-id /usr/bin/pywal-discord
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
