@@ -28,3 +28,10 @@ Videos/
 .config/nitrogen/
 .bashrc.bak
 .python_history
+.npm/
+.pki/
+.selected_editor
+.node_repl_history
+.config/discord/
+.config/QtProject.conf
+.config/BetterDiscord/
