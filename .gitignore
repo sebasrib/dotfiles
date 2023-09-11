@@ -35,3 +35,7 @@ Videos/
 .config/discord/
 .config/QtProject.conf
 .config/BetterDiscord/
+.config/Code/*
+!.config/Code/User/
+.config/Code/User/*
+!.config/Code/User/settings.json
