@@ -39,3 +39,8 @@ Videos/
 !.config/Code/User/
 .config/Code/User/*
 !.config/Code/User/settings.json
+.config/obs-studio
+.vscode/
+.rest-client/
+.dotnet/
+.config/Postman/
