@@ -118,7 +118,9 @@ RESET="\[$(tput sgr0)\]"
 RED="\[$(tput setaf 1)\]"
 export RANGER_LOAD_DEFAULT_RC=false
 
-export PS1="$(tput bold)\u@${RED}\h${RESET}:\w\\$ "
+
+# export PS1="${debian_chroot:+($debian_chroot)}$(tput bold)\u@${RED}\h${RESET}:\w\\$ "
+export PS1="\u@${RED}\h${RESET}:\w\$ "
 # export PS1="\[\e[31m\][\[\e[m\]\[\e[38;5;172m\]\u\[\e[m\]@\[\e[38;5;153m\]\h\[\e[m\] \[\e[38;5;214m\]\W\[\e[m\]\[\e[31m\]]\[\e[m\]   ¯\_(ツ)_/¯   $ "
 
 #cat<<'EOF'
