@@ -1,5 +1,5 @@
 {
-	"workbench.colorTheme": "Wal",
+	"workbench.colorTheme": "Bearded Theme Altica",
 	"files.eol": "\n",
 	"editor.insertSpaces": false,
 	"editor.stickyTabStops": true,
@@ -7,6 +7,5 @@
 	"emmet.preferences": {},
 	"telemetry.telemetryLevel": "off",
 	"window.menuBarVisibility": "toggle",
-	"explorer.confirmDelete": false,
-	"window.zoomLevel": -1
+	"explorer.confirmDelete": false
 }
