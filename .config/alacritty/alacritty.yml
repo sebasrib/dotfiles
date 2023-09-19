@@ -1,4 +1,0 @@
-import:
-#  - ~/.config/alacritty/colorscheme/themes/moonlight_ii_vscode.yaml
-#  - ~/.config/alacritty/colorscheme/themes/everforest_light.yaml
-  - ~/.config/alacritty/colorscheme/themes/gruvbox_light.yaml

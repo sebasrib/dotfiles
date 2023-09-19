@@ -44,3 +44,10 @@ Videos/
 .rest-client/
 .dotnet/
 .config/Postman/
+.config/chromium/
+.config/torbrowser/
+.sqlite_history
+.tor/
+.config/htop/
+.config/mimeapps.list
+.config/mimeapps.list 
