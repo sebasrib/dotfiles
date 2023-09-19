@@ -244,9 +244,9 @@ bar {
 	mode hide
 	hidden_state hide
 	modifier Mod1
-	colors {
-		background #bg
-		statusline #fg
-		separator #fg
-	}
+	#colors {
+	#	background #fg
+	#	statusline #bg
+	#	separator #fg
+	#}
 }
