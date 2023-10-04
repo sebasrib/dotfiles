@@ -53,3 +53,5 @@ Videos/
 .config/mimeapps.list 
 .config/qBittorrent/
 .config/vlc/
+.config/picom/picom.conf.bak
+.thunderbird/
